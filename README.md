@@ -33,7 +33,7 @@ Helper for your RPG fantasies to become the best Knight via Python
 - You can select monster name coordinates and give a list of monster names to attack for whitelisting mobs so that it wont try to attack any mob outside the list. Seperates multiple mob names as `mob 1,mob 2`
 
 #### Buff Settings
-- For any buff skill to be recognized and cast, their template image needs to be in `static/` with correct naming.
+- For any buff skill to be recognized and cast, their template image needs to be in `static/` folder with correct naming.
 - From the `Skill Settings` Tab tick the `buff` for any skill that you want registered as a buff. This will add the skill to `Buff Settings` Tab under `Settings` Tab.
 - Tick the `Activate` for the buff that you want it to be checked for and cast.
 - Under Settings -> Buff Settings click `Select Coordinates` and select the area you want the program to search for the buff icon. This is for you to select a specific part so that program doesnt recognize buff skill icon on skill bar or skill list and only checks buff icon location.
